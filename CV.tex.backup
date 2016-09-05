@@ -1,0 +1,145 @@
+\documentclass[11pt,a4paper,francais]{moderncv}
+
+\moderncvtheme[blue]{classic} 
+\usepackage[utf8x]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\usepackage{mathpazo}
+\usepackage{multicol}
+\renewcommand{\sfdefault}{\rmdefault}
+
+\firstname{Jean-Baptiste\newline}
+\familyname{\textsc{Truffault}}
+% \title{Stage de fin d'études de 6mois \newline
+% Septembre 2014 - Février 2015}              
+% \address{62 avenue Victor Cresson}{92130 Issy-les-Moulineaux}   
+\mobile{+33-6-58-03-47-66}    
+%\phone{Votre numero de telephone fixe}                
+%\fax{Votre Fax}                      
+\email{jbtruffault@gmail.com}                              
+\extrainfo{25 years old}
+%\photo[64pt]{jb} 
+%\quote{Some quote (optional)}                
+
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\renewcommand{\namefont}{\fontsize{26}{29}\mdseries\upshape} %taile de la police pour le Nom + prénom
+\renewcommand{\titlefont}{\fontsize{14}{29}\mdseries\upshape} %taille de la police pour le titre du CV
+\makeatother
+
+%taille des tableaux
+\setlength\arrayrulewidth{.4pt}
+\setlength\tabcolsep{6pt}
+
+\vspace*{-4.5\baselineskip}
+
+\usepackage{multibib}
+\newcites{book,misc}{{Books},{Others}}
+
+\nopagenumbers{}                         
+\begin{document}
+\maketitle
+\vspace*{-3\baselineskip}
+
+\section{Experience}
+\subsection{Professional Experience}
+\cventry{2012}{Development internship}{Thales}{Stuttgart (Germany)}{6 months}
+{Développement de fonctionnalités pour une application de simulation d'équipements d'aide à la navigation 
+aérienne}
+
+\subsection{Student Project}
+\cventry{2014}{Cryptological projects in Python}{}{}{}
+{
+\begin{itemize}
+ \item Implementation of several algorithms - \textit{DES, AES, Diffie-Hellman, El-Gamal}
+ \item Research and implementation of several steganographics methods on VoIP streams
+\end{itemize}
+}
+\cventry{2013 \& 2014}{IT and people security chief}{Gala UTT}{}{}
+{
+\begin{itemize}
+  \item Working group on security group for a 3500 person with National Police \& Firemen 
+  \item Setting up and supervision of 20 video camera for the videosurveillance
+  \item Setting up 
+\end{itemize}
+}
+
+
+\section{Education}
+% \cventry{Aujourd'hui}{Engis}{Aube (10)}{}{
+% Branche Systèmes, Réseaux et Télécommunication\\
+% Filière Sécurité des Systèmes de Communication\\
+% Master Sécurité des Systèmes d'Information}  % arguments 3 to 6 can be left empty
+%\cventry{2009}{Baccalauréat Scientifique}{Institution Sainte Marie}{Antony (92)}{\textit{Mention Bien}}{Spécialité Mathématiques}
+
+
+
+\section{Key Skills}
+
+%\subsection{Informatique}
+
+\cventry{\textbf{Development}}{}{}{}{}
+{
+\begin{itemize}
+  \item Default Langage: Python
+  \item Previous experience: C, Java, Bash 
+\end{itemize}
+}
+
+\cventry{\textbf{Network}}{}{}{}{}
+{
+\begin{itemize}
+ \item Utilisation quotidienne d'environnements Linux et Windows
+ \item Cisco firewalls
+ \item Notions en réseaux d'entreprise et d'opérateur: MPLS 
+ \item Plateformes de gestion: Nagios, Cacti
+ \end{itemize}
+}
+
+\cventry{}{Sécurité des systèmes d'information}{}{}{}
+{
+\begin{itemize}
+\item Gestion de la Sécurité: ISO 27000, PRA/PCA, PSSI
+\item Analyse forensique: DFF 
+\item Sécurité des systèmes de communication: VPN (OpenVPN), Firewall (IPFire)
+\item Notions de sécurité VoIP: SRTP, ZRTP, SIPS, IAX2, Asterisk
+\
+\end{itemize}
+}
+
+\cventry{\textbf{Software Defined Radio}}{}{}{}{}
+{
+\begin{itemize}
+  \item Default Langage: Python
+  \item Previous experience: C, Java, Bash 
+\end{itemize}
+}
+
+\cventry{}{Transfert et Codage de l'information}{}{}{}
+{
+\begin{itemize}
+ \item Traitement et transmission du signal
+ \item Arithmétique: polynômes, corps cycliques
+ \item Théorie de l'information: code de Hamming, codes correcteurs
+ \item Cryptographie: AES, RSA, Diffie-Hellman, El-Gamal, hachage
+ \item Stéganographie et traitement des images
+\end{itemize}
+}
+
+%\subsection{Langues}
+\cvlanguage{Linguistique}{Anglais Courant - C1 (\textsc{Bulats}), Allemand débutant}{}
+%\cvlanguage{Allemand}{Débuttant}{}
+
+\section{Activités extra-scolaires}
+\cventry{}{Actités sportives}{}{}{Badminton, Cyclisme}{}
+\cventry{}{Association SecUTT}{(secouristes UTT) - Trésorier (2011 - 2013)}{}{}
+{
+\begin{itemize}
+ %\item Trésorier
+ \item Diplomé Premiers Secours en Équipe (niveaux 1 \& 2) - 2011
+ %\item Organisation de postes de secours (évènements sportifs et festifs)
+\end{itemize}
+}
+
+
+\end{document}
