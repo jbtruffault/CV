@@ -7,15 +7,21 @@
 \usepackage{multicol}
 \renewcommand{\sfdefault}{\rmdefault}
 
+% \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+% \newcommand{\tab}[1]{\hspace{.2\textwidth}\rlap{#1}}
+
+\usepackage{tabto}
+
 \firstname{Jean-Baptiste\newline}
 \familyname{\textsc{Truffault}}
-% \title{Stage de fin d'études de 6mois \newline
+\title{Security DevOps} 
 % Septembre 2014 - Février 2015}              
 % \address{62 avenue Victor Cresson}{92130 Issy-les-Moulineaux}   
-\mobile{+33-6-58-03-47-66}    
+ 
 %\phone{Votre numero de telephone fixe}                
 %\fax{Votre Fax}                      
-\email{jbtruffault@gmail.com}                              
+\email{jean-baptiste@truffau.lt}                              
+\mobile{+33-6-58-03-47-66}   
 \extrainfo{25 years old}
 %\photo[64pt]{jb} 
 %\quote{Some quote (optional)}                
@@ -25,7 +31,7 @@
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 \renewcommand{\namefont}{\fontsize{26}{29}\mdseries\upshape} %taile de la police pour le Nom + prénom
 \renewcommand{\titlefont}{\fontsize{14}{29}\mdseries\upshape} %taille de la police pour le titre du CV
-\makeatother
+
 
 %taille des tableaux
 \setlength\arrayrulewidth{.4pt}
@@ -43,9 +49,13 @@
 
 \section{Experience}
 \subsection{Professional Experience}
+\cventry{2015 - 2016}{Information Security Consultant }{Oppida}{}{18 months}
+{Intern \& Extern pentest - OWASP - OSCP\\
+CSPN evaluator}
+\cventry{2014}{Research in Software Defined Radio}{Oppida}{}{6 months}
+{Python development of a radio protocol attack framework}
 \cventry{2012}{Development internship}{Thales}{Stuttgart (Germany)}{6 months}
-{Développement de fonctionnalités pour une application de simulation d'équipements d'aide à la navigation 
-aérienne}
+{Java development of a simulating software for ADSB systems}
 
 \subsection{Student Project}
 \cventry{2014}{Cryptological projects in Python}{}{}{}
@@ -58,14 +68,19 @@ aérienne}
 \cventry{2013 \& 2014}{IT and people security chief}{Gala UTT}{}{}
 {
 \begin{itemize}
-  \item Working group on security group for a 3500 person with National Police \& Firemen 
+  \item Working in security group for a 3500 person event with National Police \& Firemen 
   \item Setting up and supervision of 20 video camera for the videosurveillance
-  \item Setting up 
 \end{itemize}
 }
 
 
 \section{Education}
+\cventry{2015}{Master degree}{Université de Technologie de Troyes}{}{1 year}
+{Information System Security}
+\cventry{2014}{Engineer degree}{Université de Technologie de Troyes}{}{5 years}
+{Computer Security cursus}
+\cventry{2009}{Scientific french baccalaureate}{Lycée Ste-Marie d'Antony}{}{3 years}
+{Secondary-school degree in maths and physics with high honors}
 % \cventry{Aujourd'hui}{Engis}{Aube (10)}{}{
 % Branche Systèmes, Réseaux et Télécommunication\\
 % Filière Sécurité des Systèmes de Communication\\
@@ -77,57 +92,62 @@ aérienne}
 \section{Key Skills}
 
 %\subsection{Informatique}
+\cventry{\textbf{Offensive Security}}{}{}{}{}
+{
+\begin{itemize}
+%   \item Public tools: \tab{Metasploit - Nessus - Burpsuite - Wireshark}\\
+% 	\tab{}	      \tab{nmap - hping3, ...}
+%   \item Personnal scripting (Python): \tab{Scapy - Netzob - Ghost - Pytbull }
+  \item Pentesting: \tab{Metasploit - Nessus - Burpsuite}
+  \tab{}	    \tab{nmap - hping3  ...}  
+  \item Network scripting: \tab{Scapy - Netzob - Ghost - Pytbull}
+\end{itemize}
+}
 
 \cventry{\textbf{Development}}{}{}{}{}
 {
 \begin{itemize}
-  \item Default Langage: Python
-  \item Previous experience: C, Java, Bash 
+  \item Default Language: \tab{Python}
+  \item Previous experience: \tab{C - Java - Bash} 
 \end{itemize}
 }
 
-\cventry{\textbf{Network}}{}{}{}{}
+\cventry{\textbf{System Admin}}{}{}{}{}
 {
 \begin{itemize}
- \item Utilisation quotidienne d'environnements Linux et Windows
- \item Cisco firewalls
- \item Notions en réseaux d'entreprise et d'opérateur: MPLS 
- \item Plateformes de gestion: Nagios, Cacti
+ \item Operating System: \tab{GNU/Linux - Windows}
+ \item Firewalls: \tab{Iptables - Stormshield - Cisco}
+ \item VPN: \tab{Strongswan - OpenVPN - IKE - ISAKMP}
+ \item Virtualization: \tab{Docker - LXC - VMware}
+ \item Configuration: \tab{Ansible}
  \end{itemize}
-}
-
-\cventry{}{Sécurité des systèmes d'information}{}{}{}
-{
-\begin{itemize}
-\item Gestion de la Sécurité: ISO 27000, PRA/PCA, PSSI
-\item Analyse forensique: DFF 
-\item Sécurité des systèmes de communication: VPN (OpenVPN), Firewall (IPFire)
-\item Notions de sécurité VoIP: SRTP, ZRTP, SIPS, IAX2, Asterisk
-\
-\end{itemize}
 }
 
 \cventry{\textbf{Software Defined Radio}}{}{}{}{}
 {
 \begin{itemize}
-  \item Default Langage: Python
-  \item Previous experience: C, Java, Bash 
+  \item Protocols: \tab{Zigbee - BLE - Wifi - GSM - LTE - DSRC}
+  \item Tools: \tab{Gnu Radio - OsmocomBB}
+  \item Theory:	\tab{Signal Processing}
 \end{itemize}
 }
 
-\cventry{}{Transfert et Codage de l'information}{}{}{}
-{
-\begin{itemize}
- \item Traitement et transmission du signal
- \item Arithmétique: polynômes, corps cycliques
- \item Théorie de l'information: code de Hamming, codes correcteurs
- \item Cryptographie: AES, RSA, Diffie-Hellman, El-Gamal, hachage
- \item Stéganographie et traitement des images
-\end{itemize}
-}
+\cvcomputer{\textbf{Offensive}}{\listitemsymbol Pentesting:}{}{\hspace{-2.5cm} Metasploit - Nessus - Burpsuite - nmap - hping3 ...}
+\cvcomputer{\textbf{Security}}{\listitemsymbol Network scripting:}{}{\hspace{-2.5cm} Scapy - Netzob - Ghost - Pytbull}
+\vspace{0.5cm}
+\cvcomputer{\textbf{Development}}{\listitemsymbol Default Language:}{}{\hspace{-2.5cm} Python}
+\cvcomputer{\textbf{}}{\listitemsymbol Previous experience}{}{\hspace{-2.5cm} C - Java - Bash}
+\vspace{0.5cm}
+\cvcomputer{\textbf{System}}{\listitemsymbol Operating System}{}{\hspace{-2.5cm} GNU/Linux - Windows}
+\cvcomputer{\textbf{Administration}}{\listitemsymbol Firewalls}{}{\hspace{-2.5cm} Iptables - Stormshield - Cisco}
+\cvcomputer{\textbf{}}{\listitemsymbol VPN}{}{\hspace{-2.5cm} Strongswan - OpenVPN - IKE - ISAKMP}
+\cvcomputer{\textbf{}}{\listitemsymbol Virtualization}{}{\hspace{-2.5cm} Docker - LXC - VMware}
+\cvcomputer{\textbf{}}{\listitemsymbol Configuration}{}{\hspace{-2.5cm} Ansible}
+
+\cvcomputer{\textbf{}}{\listitemsymbol }{}{\hspace{-2.5cm} }
 
 %\subsection{Langues}
-\cvlanguage{Linguistique}{Anglais Courant - C1 (\textsc{Bulats}), Allemand débutant}{}
+\cvlanguage{Language}{Fluent and technical English - C1 (\textsc{Bulats}) \\ Basics German}{}
 %\cvlanguage{Allemand}{Débuttant}{}
 
 \section{Activités extra-scolaires}

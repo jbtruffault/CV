@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.11)  25 AUG 2016 00:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.11)  8 SEP 2016 01:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -733,6 +733,10 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box76
 \multicol@sort@counter=\count153
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+Package: tabto 2013/03/25  v 1.3  Another tabbing mechanism
+\CurrentLineWidth=\dimen197
+)
 (/usr/share/texlive/texmf-dist/tex/latex/multibib/multibib.sty
 Package: multibib 2008/12/10 v1.4 Multiple bibliographies for one document.
 \mb@biblabelwidth=\count154
@@ -796,7 +800,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen197
+\@linkdim=\dimen198
 \Hy@linkcounter=\count155
 \Hy@pagecounter=\count156
 
@@ -822,10 +826,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count158
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen198
+\XeTeXLinkMargin=\dimen199
 \Fld@menulength=\count159
-\Field@Width=\dimen199
-\Fld@charsize=\dimen200
+\Field@Width=\dimen200
+\Fld@charsize=\dimen201
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -854,7 +858,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip79
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 40.
+Package hyperref Info: Option `breaklinks' set `true' on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
@@ -871,58 +875,58 @@ File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 40.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 40.
+(hyperref)                removing `\newline' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 40.
+(hyperref)                removing `\newline' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 40.
+(hyperref)                removing `\newline' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 40.
+(hyperref)                removing `\newline' on input line 46.
 
 (./CV.aux)
 \openout1 = `CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count165
-\scratchdimen=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\scratchdimen=\dimen256
 \scratchbox=\box77
 \nofMPsegments=\count166
 \nofMParguments=\count167
 \everyMPshowfont=\toks31
 \MPscratchCnt=\count168
-Normal \dimen register pool exhausted, switching to extended pool.
-\MPscratchDim=\dimen256
+\MPscratchDim=\dimen257
 \MPnumerator=\count169
 \makeMPintoPDFobject=\count170
 \everyMPtoPDFconversion=\toks32
@@ -941,7 +945,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 40.
+LaTeX Info: Redefining \microtypecontext on input line 46.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -993,9 +997,9 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\big@size=\dimen257
+\big@size=\dimen258
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 46.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1004,9 +1008,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count171
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
 
 (./CV.out) (./CV.out)
 \@outlinefile=\write6
@@ -1025,50 +1029,52 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 \makecvtitledetailswidth=\skip80
 \makecvtitlepicturewidth=\skip81
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 
  []
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 48.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 54.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-Overfull \hbox (5.12932pt too wide) in paragraph at lines 87--87
+Overfull \hbox (5.12932pt too wide) in paragraph at lines 139--139
  [][]\T1/ppl/b/n/10.95 Development[]|
  []
 
-LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 130.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+
+Overfull \vbox (98.96019pt too high) has occurred while \output is active []
+
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
  (./CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: 13D36F1F5BED2562C2CA2F568F746102;753.
+(rerunfilecheck)             Checksum: 75F837C07D51212F19CE813EB5E0CD73;572.
  ) 
 Here is how much of TeX's memory you used:
- 25789 strings out of 494235
- 454610 string characters out of 6167106
- 540709 words of memory out of 5000000
- 28644 multiletter control sequences out of 15000+600000
- 38500 words of font info for 98 fonts, out of 8000000 for 9000
+ 25804 strings out of 494235
+ 454928 string characters out of 6167106
+ 544222 words of memory out of 5000000
+ 28660 multiletter control sequences out of 15000+600000
+ 38583 words of font info for 96 fonts, out of 8000000 for 9000
  496 hyphenation exceptions out of 8191
- 70i,11n,59p,10379b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,11n,59p,10379b,613s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
 latino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri
 8a.pfb>
-Output written on CV.pdf (1 page, 82365 bytes).
+Output written on CV.pdf (1 page, 84939 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 35389 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 61 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 35381 words of extra memory for PDF output out of 35830 (max. 10000000)
 
